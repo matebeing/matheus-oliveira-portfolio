@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Italiana', serif;
+    max-width: 80vw;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+nav > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav > div span:last-child {
+    color: rgb(105, 105, 105);
+    font-weight: 600;
+}
+
+li {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+header > div img {
+    height: 400px;
+}
+
+header > div p {
+    font-size: 40px;
+    width: 600px;
+    text-align: justify;
+}
+
+main {
+    min-height: 50vh;
+    width: 100%;
+}
+
+main > h1 {
+    font-weight: normal;
+}
+
+main > section > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+main > section > div > button {
+    margin-top: 3rem;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    color: rgb(141, 141, 141);
+}
+
+main > section > div > button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main > section > section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+main > section > section > div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 0 0 2em;
+    margin-top: 10rem;
+}
