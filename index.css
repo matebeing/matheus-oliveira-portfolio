@@ -52,13 +52,26 @@ header > div {
     justify-content: space-between;
     margin-top: 5rem;
 }
+header > div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+header > div > div:last-child > a {
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    background-color: black;
+}
 
 header > div img {
     height: 400px;
 }
 
 header > div p {
-    font-size: 40px;
+    font-size: 35px;
     width: 600px;
     text-align: justify;
 }
