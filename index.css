@@ -50,8 +50,9 @@ header > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
+
 header > div > div:last-child {
     display: flex;
     flex-direction: column;
