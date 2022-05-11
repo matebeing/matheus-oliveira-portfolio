@@ -66,6 +66,8 @@ header {
     font-weight: 600;
     color: #fff;
     background-color: black;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
 }
 
 .split__photo {
