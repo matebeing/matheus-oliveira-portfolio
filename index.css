@@ -59,7 +59,14 @@ header {
     flex-direction: column;
 }
 
-.split__info > a {
+.split__info__link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.split__info__link__item {
     padding: 20px;
     width: 150px;
     text-align: center;
@@ -67,8 +74,14 @@ header {
     color: #fff;
     background-color: black;
     border-radius: 0.5rem;
-    margin-top: 2rem;
 }
+
+.split__info__link__item:last-child {
+    background-color: inherit;
+    color: #000;
+}
+
+
 
 .split__photo {
     height: 400px;
