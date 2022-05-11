@@ -25,18 +25,18 @@ nav {
     margin-top: 1rem;
 }
 
-nav > div {
+.nav__info {
     display: flex;
     flex-direction: column;
 }
 
 
-nav > div span:last-child {
+.nav__info span:last-child {
     color: rgb(105, 105, 105);
     font-weight: 600;
 }
 
-li {
+nav li {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -46,19 +46,20 @@ header {
     width: 100%;
 }
 
-header > div {
+.split {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 7rem;
-}
-
-header > div > div:last-child {
-    display: flex;
-    flex-direction: column;
     gap: 2rem;
 }
-header > div > div:last-child > a {
+
+.split__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.split__info > a {
     padding: 20px;
     width: 150px;
     text-align: center;
@@ -67,11 +68,11 @@ header > div > div:last-child > a {
     background-color: black;
 }
 
-header > div img {
+.split__photo {
     height: 400px;
 }
 
-header > div p {
+.split__info > p {
     font-size: 35px;
     width: 600px;
     text-align: justify;
@@ -82,17 +83,17 @@ main {
     width: 100%;
 }
 
-main > h1 {
+.projects > h1 {
     font-weight: normal;
 }
 
-main > section > div {
+.projects__filter {
     display: flex;
     justify-content: space-between;
     max-width: 300px;
 }
 
-main > section > div > button {
+.projects__filter > button {
     margin-top: 3rem;
     background: none;
     border: none;
@@ -101,12 +102,12 @@ main > section > div > button {
     color: rgb(141, 141, 141);
 }
 
-main > section > div > button:hover {
+.projects__filter > button:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-main > section > section {
+.projects__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -114,7 +115,7 @@ main > section > section {
     margin-top: 3rem;
 }
 
-main > section > section > div{
+.projects__list__item{
     display: flex;
     flex-direction: column;
 }
