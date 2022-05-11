@@ -30,6 +30,11 @@ nav {
     flex-direction: column;
 }
 
+.nav_link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 .nav__info span:last-child {
     color: rgb(105, 105, 105);
@@ -77,6 +82,9 @@ header {
 }
 
 .split__info__link__item:last-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     background-color: inherit;
     color: #000;
 }
