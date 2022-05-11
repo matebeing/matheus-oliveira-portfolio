@@ -22,24 +22,26 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .nav__info {
     display: flex;
     flex-direction: column;
+    color: #506b3b;
+    font-weight: 600;
+    border: 1px solid #506b3b;
+    padding: 0.5em;
 }
 
 .nav_link {
     display: flex;
     align-items: center;
+    color: #585b62;
     gap: 0.5rem;
 }
 
-.nav__info span:last-child {
-    color: rgb(105, 105, 105);
-    font-weight: 600;
-}
+
 
 nav li {
     display: flex;
@@ -55,13 +57,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 7rem;
+    margin-top: 5rem;
     gap: 2rem;
 }
 
 .split__info {
     display: flex;
     flex-direction: column;
+}
+
+.split__info p {
+    color: #443b3b;
 }
 
 .split__info__link {
@@ -77,7 +83,7 @@ header {
     text-align: center;
     font-weight: 600;
     color: #fff;
-    background-color: black;
+    background-color: #506b3b ;
     border-radius: 0.5rem;
 }
 
@@ -86,7 +92,7 @@ header {
     align-items: center;
     gap: 0.5rem;
     background-color: inherit;
-    color: #000;
+    color: #585b62
 }
 
 
