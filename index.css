@@ -133,22 +133,7 @@ main {
 .projects__filter > button:hover {
     cursor: pointer;
     text-decoration: underline;
-}
-
-.projects__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    margin-top: 3rem;
-}
-
-.projects__list__item {
-    height: 134.5px;
-}
-
-.projects__list__item > img{
-    height: 100%;
-}
+}                                                                  
 
 footer {
     padding: 0 0 2em;
